@@ -1,0 +1,114 @@
+/* Fundo com gradiente escuro */
+body {
+  background: linear-gradient(to right, #121212, #1f1b24);
+  font-family: 'Segoe UI', sans-serif;
+  padding: 40px;
+  color: #e0e0e0;
+}
+
+/* Título principal */
+h1 {
+  color: #bb86fc;
+  text-align: center;
+  font-size: 36px;
+}
+
+/* Parágrafos */
+p {
+  font-size: 18px;
+  text-align: justify;
+  line-height: 1.6;
+}
+
+/* Lista de hobbies */
+ul li {
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+
+/* Imagens de hobbies e países */
+img.hobby, img.country {
+  width: 100%;
+  max-width: 600px;
+  border-radius: 10px;
+  display: block;
+  margin: 20px auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.5);
+}
+
+/* Tabelas de países */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 30px;
+  background: #2a2a2a;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  color: #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+table th {
+  background-color: #3700b3;
+  color: #fff;
+  padding: 15px;
+  font-size: 18px;
+}
+
+table td {
+  padding: 15px;
+  border-top: 1px solid #444;
+}
+
+table tr:nth-child(even) {
+  background-color: #1e1e1e;
+}
+
+table tr:hover {
+  background-color: #333;
+  transition: background-color 0.3s ease;
+}
+
+/* Links */
+a {
+  color: #03dac6;
+  font-weight: bold;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #ff4081;
+}
+
+/* Botão */
+button {
+  background-color: #3700b3;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  display: block;
+  margin: 20px auto 10px auto;
+  transition: background-color 0.3s ease;
+}
+
+button:hover:not(:disabled) {
+  background-color: #6200ea;
+}
+
+button:disabled {
+  background-color: #555;
+  cursor: not-allowed;
+  color: #aaa;
+}
+
+/* Mensagem abaixo do botão */
+#mensagem {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #bdbdbd;
+  text-align: center;
+}
